@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+/* the above url is needed to change the font of the name of the application and the style we are
+using is Grand Hotel and we get this from Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+/* imported to change the font of signin and signup*/
+a{
+  color:black!important /*we are using this important bcz it is possible that the Materilize Css may override so to prevent that we are using important*/
+}
+.brand-logo,h2{
+  font-family: 'Kalam', cursive;
+}
+/* this is applied to signin and signup font on the navbar*/
+.self2{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.mycard{ /* this is applicable on the main  div..*/
+  margin-top: 30px;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(8,93,252) !important;
+  box-shadow: 0 1px 0 0 rgb(8,93,252)!important;
+}
+/* we hve to wtite it twice one for the text input and another for the password input...*/
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(8,93,252) !important;
+  box-shadow: 0 1px 0 0 rgb(8,93,252)!important;
+}
+
+/* this is used in the Profile.js*/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* this is also used in the Profile.js so that we couls style the posts on the profile page*/
+.item{
+  width: 30%;
+}
+/* this is applicablie inside the home.js*/
+.home-card{
+    max-width: 500px;
+    height: max-content;
+    margin: 26px auto;
+}
+#toast-container{
+  top:30px !important;
+  right:20px !important;
+  left:auto !important;
+}
+.material-icons:hover{
+  cursor:pointer;
+}
+
+.parag{
+  margin:auto;
+  padding: 5px;
+  max-width: 30px;
+}
+
+/* this is used to give styling to "unite" presnt at the navbar*/
+.self1{
+   margin-left: 30px;
+}
+
+/* this is to make the footer stick at the bottom point*/
+.footerself{
+  /*
+  display: flex;
+  max-height: 50px !important;
+  margin-top: 90px !important;
+  margin-top: 90px;
+  min-height: 10vh;
+  flex-direction: column;
+  flex: 1 0 auto;*/
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  /*
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1 0 auto;*/
+  /*
+  display: flex;
+    /* min-height: calc(100vh - 90px); 
+    
+    max-height:50px;
+    margin-top: 90px;
+    min-height: 0vh;
+    flex-direction: column;
+    flex: 1 0 auto*/
+}
+.self3{
+  margin-left: 125px;
+}
+
+.collection-item{
+  width: 100%;
+}
+.read-more-link{
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.extra-content{
+  color: cornflowerblue;
+  font-weight: 500;
+}
+
+.parag1{
+  color: black !important;
+}
